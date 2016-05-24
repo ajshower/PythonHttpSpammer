@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2d76f036-fcc9-475f-87dd-a8156ee6d89d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonHttpSpamer.py</StartupFile>
+    <StartupFile>EmailActivator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="EmailActivator.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonHttpSpamer.py" />
   </ItemGroup>
   <PropertyGroup>

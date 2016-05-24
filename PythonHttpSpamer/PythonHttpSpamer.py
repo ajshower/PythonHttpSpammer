@@ -10,8 +10,8 @@ newAccountNameTemplate = "tester-"
 num_threads = 4
 jobsQueue = Queue()
 resultQueue = Queue()
-startIndex = 30
-stopIndex = 200
+startIndex = 1
+stopIndex = 10
 
 def parseArgs(argv):
     # WIP
@@ -25,7 +25,7 @@ def post_request(username):
     payload = {
         "allcountries": "0",
         "username": username,
-        "email": username+"@test.pl",
+        "email": "xoxo+"+username+"@gmail.com",
         "password1": "1234",
         "password2": "1234",
         "TOS": "ON",
